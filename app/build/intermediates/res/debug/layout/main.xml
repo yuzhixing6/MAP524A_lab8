@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Course code" />
+
+    <EditText
+        android:id="@+id/txtCode"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Course title" />
+
+    <EditText
+        android:id="@+id/txtTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Room number" />
+
+<EditText
+    android:id="@+id/txtRoom"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" />
+
+
+<Button
+    android:text="Add course"
+    android:id="@+id/btnAdd"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:onClick="onClickAddTitle" />
+
+<Button
+    android:text="Retrieve courses"
+    android:id="@+id/btnRetrieve"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickRetrieveCourses"  />
+
+ <Button
+        android:text="List courses"
+        android:id="@+id/btnList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickListCourses"  />
+
+ <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+
+</LinearLayout><!-- From: file:/C:/Users/yuzhi/Desktop/TestCourseProvider-master/app/src/main/res/layout/main.xml -->
